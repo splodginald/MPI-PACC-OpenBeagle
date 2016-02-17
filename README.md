@@ -15,5 +15,27 @@ This repository containes files from the following sources:
 Installing the source code and build environment.
 -------------------------------------------------
 There are two options here.
+* Cloning the git repository to a directory of your choice (__strongly reccomended__).
 * Unzipping an archive to a directory of your choice.
-* Cloning a git repository to a directory of your choice (strongly reccomended).
+
+##### Cloning the git repository to a directory of your choice.
+In the terminal, navigate to a directory of your choice and run:
+git clone https://github.com/splodginald/MPI-PACC-OpenBeagle.git
+The source files will be in a subdirectory of your choosen directory.
+Example:
+My home directory is /home/david
+if I navigate to /home/david in the terminal and run:
+git clone https://github.com/splodginald/MPI-PACC-OpenBeagle.git
+The source code is now in:
+/home/david/MPI-PACC-OpenBeagle
+
+##### Unzipping an archive to a directory of your choice.
+Go to https://github.com/splodginald/MPI-PACC-OpenBeagle
+Click on the "Download ZIP" button.
+Extract the .zip file to directory of your choice.
+The source files will be in a subdirectory of your choosen directory.
+Example:
+My home directory is /home/david
+If I extract the archive to /home/david
+the source code is now in:
+/home/david/MPI-PACC-OpenBeagle-master
